@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron{
+    font-size: 20px;
+    text-align: center;
+    background-color: #8E1616;
+    padding: 60px;
+    color: aliceblue;
+}
+nav {
+    background-color: #D84040;
+    padding: 8px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+nav ul li a:hover{
+    background-color: #070000;
+    padding: 1em;
+    border-radius: 4px;
+    transition: padding 0.3s ease;
+}
+
+.box-metal{
+background-color: black;
+color: aliceblue;
+text-align: justify;
+margin: 15px;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 3px 3px rgb(142, 22, 22);
+}
+.box-metal img{
+    border-radius: 12px;
+    width: 20%;
+}
+
+.box-metal p{
+    color: aliceblue;
+}

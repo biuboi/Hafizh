@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Pertemuan 5</title>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="white"
+        fill-opacity="1"
+        d="M0,192L80,176C160,160,320,128,480,117.3C640,107,800,117,960,106.7C1120,96,1280,64,1360,48L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+      ></path>
+    </svg>
+    <div class="relative flex justify-center gap-2">
+      <button
+        onclick="toggleDropdown()"
+        class="bg-blue-950 hover:bg-blue-200 text-white px-4 py-2 rounded-md"
+      >
+        MENU
+      </button>
+      <div
+        id="dropdownMenu"
+        class="absolute top-full mt-2 w-48 bg-white shadow-md rounded-md hidden"
+      >
+        <a href="#post_1" class="block px-4 py-2 hover:bg-gray-200">HAI</a>
+        <a href="#post_2" class="block px-4 py-2 hover:bg-gray-200"
+          >Pertemuan Pertama</a
+        >
+        <a href="#post_3" class="block px-4 py-2 hover:bg-gray-200">OSPEK</a>
+        <a href="#post_4" class="block px-4 py-2 hover:bg-gray-200"
+          >Praktikum Biologi</a
+        >
+        <a href="#post_5" class="block px-4 py-2 hover:bg-gray-200"
+          >Minisoccer</a
+        >
+        <a href="#post_6" class="block px-4 py-2 hover:bg-gray-200">WP</a>
+        <a href="#post_7" class="block px-4 py-2 hover:bg-gray-200"
+          >Praktikum Agama</a
+        >
+        <a href="#post_8" class="block px-4 py-2 hover:bg-gray-200">PDH</a>
+        <a href="#post_9" class="block px-4 py-2 hover:bg-gray-200"
+          >Bukit Biru</a
+        >
+        <a href="#post_10" class="block px-4 py-2 hover:bg-gray-200"
+          >OSPEK Pendikom</a
+        >
+        <a href="#post_11" class="block px-4 py-2 hover:bg-gray-200">EKSPO</a>
+        <a href="#post_12" class="block px-4 py-2 hover:bg-gray-200"
+          >MIKROTIK</a
+        >
+      </div>
+    </div>
+    <script>
+      function toggleDropdown() {
+        document.getElementById("dropdownMenu").classList.toggle("hidden");
+      }
+    </script>
+
+    <div class="profile">
+      <img
+        src="style/pict/WhatsApp Image 2025-03-03 at 22.49.59.jpeg"
+        class="rounded-full w-32 h-32 object-cover"
+        alt=""
+      />
+      <div class="text-2xl text-center mt-6 font-extrabold">
+        <p>Muhammad Hafizh Dwinanda</p>
+        <p>Mahasiswa Universitas Mulawarman</p>
+      </div>
+    </div>
+    <div
+      class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 article"
+    >
+      <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+        <h1 class="text-2xl font-bold" id="post_1">HAI</h1>
+        <img
+          src="style/pict/suka begadang.jpeg"
+          class="float-left w-32 h-32"
+          alt=""
+        />
+        <p>
+          Hallo semuanyaa!!! perkenalkan nama ku Muhammad Hafizh Dwinanda, aku
+          biasa dipanggil hafizh atau ikan, asal ku dari Bongan, Kutai Barat,
+          aku lahir dan dibesarkan disana sampai aku SMA, salam kenal yaaa! oh
+          iya aku sekarang masih menjadi mahasiswa semester 4.... doakan aku
+          cumlaude yaaa!. Di blog kali ini aku mau sharing kisah hidup ku semasa
+          kuliah di Universitas Mulawaman.
+        </p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+        <h1 class="text-2xl font-bold" id="post_2">Pertemuan Pertama</h1>
+        <img
+          src="style/pict/Pendikom H1.jpeg"
+          class="float-left w-auto h-32"
+          alt=""
+        />
+        <p>
+          Kalian bisa lihat di foto ini ada teman-teman ku dari prodi pendidikan
+          komputer, yaaa walau udah ada yang pindah prodi sii, tapi ga papa
+          karena masih banyak teman yang baik juga di prodi ini. BTW disini kami
+          ketemu sama kaka kaka dari prodi pendidikan komputer, dan juga kami
+          saling kenalan satu sama lain, ada dikasih tugas sii, tapi yaaa
+          gampang aja lahh.
+        </p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+        <h1 class="text-2xl font-bold" id="post_3">OSPEK</h1>
+        <img
+          src="style/pict/Ospek pendidik.jpeg"
+          class="float-left w-auto h-32"
+          alt=""
+        />
+        <p>
+          Nahhh di foto ini adalah salah satu kegiatan yang paling asik di
+          kampus, yaaa apalagi kalau bukan ospek yakann. di foto ini aku ingat
+          banget kalau aku lagi dekat sama kawan ku, namanya Gim Nastiar, itu
+          loo yang disebelah ku, "sekarang gimana? masih dekat?" masih lahhhh
+          asik orangnnya itu, pintar lagi.
+        </p>
+      </div>
+    </div>
+    <section>
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 article"
+      >
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_4">Praktikum Biologi</h1>
+          <img
+            src="style/pict/Praktikum BIO.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            Kalau lihat foto ini aku jadi keingat masa masa suram, Praktikum
+            yang paling bikin cape, masa anak komputer disuruh belajar nanam
+            hydra(tumbuhan air). Gak salah sii tapi ini praktikum capenya luar
+            biasa, kenapa capenya luar biasa? soalnya bikin lapraknya tulis
+            tangan hehe. aku jadi respect sama orang orang yang dulu ngelaprak
+            full pakai tulisan tangan.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_5">Minisoccer</h1>
+          <img
+            src="style/pict/Minisoccer.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            Dari tadi kan kegiatan di kampus mulu, nahhh sekarng aku mau
+            ngebahas kegiatan diluar kampus. Kalian tau ga aku jago main bola?
+            hehe jago iniii kalian pikir nda jago kah? Left back andalah ni
+            boss. selama ga main futsal boleh lah diadu. btw aku disi main sama
+            teman-teman alumni SMA ku yaa.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_6">WP</h1>
+          <img
+            src="style/pict/Nongkrong di WP.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            WP atau waroeng pojok, kalau jadi anak pendikom tapi ga pernah
+            kesini itu pasti bukan anak pendikom hehe, soalnya ini kantin memang
+            sudah paling sering ditempati sama anak anak pendikom, sama anak
+            kehutanan juga si. Intinya banyak lah cerita dikantin sederhana ini.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 article"
+      >
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_7">Praktikum Agama</h1>
+          <img
+            src="style/pict/Praktikum agama.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            Lagi-lagi praktikum memang cinta betul aku sama praktikum nii, di
+            foto ini kami lagi praktikum agama Islam, praktek sholat sama ngaji
+            doang si, kacang lahhhh cuma yang bikin repot itu harus dengarin
+            ceramah kakaknya buat dicatat, terus dibikin laporan dah.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_8">PDH</h1>
+          <img
+            src="style/pict/H1 PDH.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            PDH atau pakaian dinas harian, ini nih iniiiii nihhhhhh yang
+            ditungguin lama betul datangnya, karena PDH ini udah jadi identitas
+            buat anak kuliahan, udah jadi ciri khas dari anak kuliahan, apalah
+            anak kuliahan ga ada PDH ya kan. Anywayy pas ini PDH dateng aku
+            seneng sii tapi agak kecewa soalnya emblem atau logo himanya
+            kekecilan, tapi takpe.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_9">Bukit Biru</h1>
+          <img
+            src="style/pict/gunug.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            Tarik nafasss hembuskann. siapa disini yang pernah ngedaki bukit
+            atau gunung?, hah belum pernah?? wah kamu harus nyobain siii.
+            Soalnya feel yang kita dapet pas mendaki itu khuahhhh enak banget.
+            Enaknya bukan pas mendakinya si tapi perasaan puas pas kita udah
+            nyampe di puncaknya itu looo. Kayak pas kita nafas tuh lebih berasa
+            aja.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 article"
+      >
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_10">OSPEK Pendikom</h1>
+          <img
+            src="style/pict/Ospek.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            OSPEK hahaha dulu ku di ospek sekarang ku mengospek dulu-dulu ku
+            menderita sekarang kau bahagiaa. Itu mungkin lagu yang cocok buat
+            foto ini, ospek ni buat apalah sebenarnya, buat balas dendam aja
+            kurasa, soalnya kek macam nda ada faedahnya aja bah, mungkin untuk
+            kenalan sama kaka tingkatnya aja kali ya, atau malah jadi panggung
+            buat kaka alumni buat ngebacot. anyway di foto ini aku sama
+            teman-teman ku lagi ngospek teman-teman angkatan 24, aku si cuma
+            jadi konsumsi, soalnya ga begitu peduli sama kegiatannya.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_11">EKSPO</h1>
+          <img
+            src="style/pict/ekspo.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            Kalian tau EKSPO ga? ekspo itu tempat dimana kita bisa ngelihat
+            barang-barang dan karya atau apapun yang dipamerkan sama orang-orang
+            atau panitia disanaa. Nah di ekspo ini aku sama 2 teman ku lagi
+            jalan-jalan buat ngelihat-lihat barang, sekalian beli si kalau ada
+            yang mau dibeli, oh iya di ekspo ini ada kura-kura yang ukurannya tu
+            guedeeee banget, tapi aku lupa nama ilmiahnya tapi aku ingat nama
+            panggilannya diaa! namanya Donatelo, iya nama karakter dari Teenage
+            Mutant Ninja Turtle.
+          </p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 m-6">
+          <h1 class="text-2xl font-bold" id="post_12">MIKROTIK</h1>
+          <img
+            src="style/pict/WhatsApp Image 2025-03-09 at 13.54.59.jpeg"
+            class="float-left w-auto h-32"
+            alt=""
+          />
+          <p>
+            Di foto ini aku sama teman-teman ku baru aja selesai ngejalanin
+            acara tahunan dari prodi kami, yaitu MIKROTIK, apasii MIKROTIK itu?
+            nah MIKROTIK adalah nama dari cara lomba yang kami jalankan tiap
+            tahun, lombanya itu ya seputar teknologi karena kan kami prodi
+            pendidikan komputer, tujuan dari MIKROTIK ini apa sii? ada banyak
+            aku sebutin yang penting aja yaaa, jadi tujuannya untuk mengenalkan
+            prodi kami ke khalayak umum, dan yang paling penting untuk
+            meningkatkan akreditas prodi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="white"
+        fill-opacity="1"
+        d="M0,192L80,176C160,160,320,128,480,117.3C640,107,800,117,960,106.7C1120,96,1280,64,1360,48L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+      ></path>
+    </svg>
+  </body>
+</html>

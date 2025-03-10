@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(rgb(38, 112, 248) 0%, rgb(122, 115, 209)40%, rgb(181, 168, 213)100%);
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.profileimage{
+    width: 200px;
+}
+
+.profile h2{
+    color: aliceblue;
+}
+.profile h4{
+    color: aliceblue;
+    transform: translateY(-11px);
+}
+
+.bio{
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.814)40%, rgba(181, 168, 213, 0.781)100%);
+    padding-bottom: 250px;
+}
+.KONTAK{
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.814)40%, rgba(181, 168, 213, 0.781)100%);
+    padding-bottom: 300px;
+}

@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(
+    rgb(38, 112, 248) 0%,
+    rgb(122, 115, 209) 40%,
+    rgb(181, 168, 213) 100%
+  );
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.article p {
+  text-align: justify;
+  font-weight: 500;
+}
